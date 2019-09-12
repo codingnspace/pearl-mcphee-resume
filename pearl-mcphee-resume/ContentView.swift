@@ -10,8 +10,24 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello World")
+    VStack {
+        VStack {
+            BannerView()
+            .frame(height: 300)
+            .edgesIgnoringSafeArea(.top)
+    
+            AvatarImage()
+            .frame(width: 150, height: 150)
+            .offset(y: -130)
+            .padding(.bottom, -200)
+    
+            NameAddressView()
+    
+            Spacer()
+        }
     }
+}
+    
 }
 
 struct ContentView_Previews: PreviewProvider {

@@ -15,6 +15,10 @@
 		B72D2933232440EB000EA8EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B72D2931232440EB000EA8EA /* LaunchScreen.storyboard */; };
 		B72D293E232440EB000EA8EA /* pearl_mcphee_resumeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B72D293D232440EB000EA8EA /* pearl_mcphee_resumeTests.swift */; };
 		B72D2949232440EB000EA8EA /* pearl_mcphee_resumeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B72D2948232440EB000EA8EA /* pearl_mcphee_resumeUITests.swift */; };
+		B72D295723244A49000EA8EA /* AvatarImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B72D295623244A49000EA8EA /* AvatarImage.swift */; };
+		B72D29592325BC25000EA8EA /* BannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B72D29582325BC25000EA8EA /* BannerView.swift */; };
+		B72D295F2325BFB2000EA8EA /* NameAddressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B72D295E2325BFB2000EA8EA /* NameAddressView.swift */; };
+		B7D90B3B2329C77B00FFA46F /* GithubImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D90B3A2329C77B00FFA46F /* GithubImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		B72D2944232440EB000EA8EA /* pearl-mcphee-resumeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "pearl-mcphee-resumeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B72D2948232440EB000EA8EA /* pearl_mcphee_resumeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pearl_mcphee_resumeUITests.swift; sourceTree = "<group>"; };
 		B72D294A232440EB000EA8EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B72D295623244A49000EA8EA /* AvatarImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarImage.swift; sourceTree = "<group>"; };
+		B72D29582325BC25000EA8EA /* BannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerView.swift; sourceTree = "<group>"; };
+		B72D295E2325BFB2000EA8EA /* NameAddressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameAddressView.swift; sourceTree = "<group>"; };
+		B7D90B3A2329C77B00FFA46F /* GithubImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GithubImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,7 +110,11 @@
 				B72D2926232440E9000EA8EA /* AppDelegate.swift */,
 				B72D2928232440E9000EA8EA /* SceneDelegate.swift */,
 				B72D292A232440E9000EA8EA /* ContentView.swift */,
+				B72D295E2325BFB2000EA8EA /* NameAddressView.swift */,
+				B72D29582325BC25000EA8EA /* BannerView.swift */,
 				B72D292C232440EB000EA8EA /* Assets.xcassets */,
+				B72D295623244A49000EA8EA /* AvatarImage.swift */,
+				B7D90B3A2329C77B00FFA46F /* GithubImage.swift */,
 				B72D2931232440EB000EA8EA /* LaunchScreen.storyboard */,
 				B72D2934232440EB000EA8EA /* Info.plist */,
 				B72D292E232440EB000EA8EA /* Preview Content */,
@@ -267,8 +279,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B72D29592325BC25000EA8EA /* BannerView.swift in Sources */,
 				B72D2927232440E9000EA8EA /* AppDelegate.swift in Sources */,
+				B7D90B3B2329C77B00FFA46F /* GithubImage.swift in Sources */,
 				B72D2929232440E9000EA8EA /* SceneDelegate.swift in Sources */,
+				B72D295723244A49000EA8EA /* AvatarImage.swift in Sources */,
+				B72D295F2325BFB2000EA8EA /* NameAddressView.swift in Sources */,
 				B72D292B232440E9000EA8EA /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
