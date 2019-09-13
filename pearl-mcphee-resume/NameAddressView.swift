@@ -20,7 +20,7 @@ struct NameAddressView: View {
                          
                          Spacer()
                          VStack(alignment: .trailing) {
-                             Text("Washington DC")
+                             Text("Washington, DC")
                                  .fontWeight(.bold)
                              .lineLimit(1000)
                              

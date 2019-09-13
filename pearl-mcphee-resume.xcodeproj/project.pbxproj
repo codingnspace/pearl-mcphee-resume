@@ -19,6 +19,10 @@
 		B72D29592325BC25000EA8EA /* BannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B72D29582325BC25000EA8EA /* BannerView.swift */; };
 		B72D295F2325BFB2000EA8EA /* NameAddressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B72D295E2325BFB2000EA8EA /* NameAddressView.swift */; };
 		B7D90B3B2329C77B00FFA46F /* GithubImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D90B3A2329C77B00FFA46F /* GithubImage.swift */; };
+		B7D90B3D2329D36C00FFA46F /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D90B3C2329D36C00FFA46F /* MessageViewController.swift */; };
+		B7D90B3F232A662400FFA46F /* Skills.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D90B3E232A662400FFA46F /* Skills.swift */; };
+		B7D90B41232B219800FFA46F /* EmploymentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D90B40232B219800FFA46F /* EmploymentView.swift */; };
+		B7D90B45232B3B5600FFA46F /* MailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D90B44232B3B5600FFA46F /* MailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +61,10 @@
 		B72D29582325BC25000EA8EA /* BannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerView.swift; sourceTree = "<group>"; };
 		B72D295E2325BFB2000EA8EA /* NameAddressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameAddressView.swift; sourceTree = "<group>"; };
 		B7D90B3A2329C77B00FFA46F /* GithubImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GithubImage.swift; sourceTree = "<group>"; };
+		B7D90B3C2329D36C00FFA46F /* MessageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageViewController.swift; sourceTree = "<group>"; };
+		B7D90B3E232A662400FFA46F /* Skills.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Skills.swift; sourceTree = "<group>"; };
+		B7D90B40232B219800FFA46F /* EmploymentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmploymentView.swift; sourceTree = "<group>"; };
+		B7D90B44232B3B5600FFA46F /* MailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,9 +118,13 @@
 				B72D2926232440E9000EA8EA /* AppDelegate.swift */,
 				B72D2928232440E9000EA8EA /* SceneDelegate.swift */,
 				B72D292A232440E9000EA8EA /* ContentView.swift */,
+				B7D90B44232B3B5600FFA46F /* MailView.swift */,
+				B7D90B3C2329D36C00FFA46F /* MessageViewController.swift */,
 				B72D295E2325BFB2000EA8EA /* NameAddressView.swift */,
 				B72D29582325BC25000EA8EA /* BannerView.swift */,
 				B72D292C232440EB000EA8EA /* Assets.xcassets */,
+				B7D90B3E232A662400FFA46F /* Skills.swift */,
+				B7D90B40232B219800FFA46F /* EmploymentView.swift */,
 				B72D295623244A49000EA8EA /* AvatarImage.swift */,
 				B7D90B3A2329C77B00FFA46F /* GithubImage.swift */,
 				B72D2931232440EB000EA8EA /* LaunchScreen.storyboard */,
@@ -281,8 +293,12 @@
 			files = (
 				B72D29592325BC25000EA8EA /* BannerView.swift in Sources */,
 				B72D2927232440E9000EA8EA /* AppDelegate.swift in Sources */,
+				B7D90B3D2329D36C00FFA46F /* MessageViewController.swift in Sources */,
 				B7D90B3B2329C77B00FFA46F /* GithubImage.swift in Sources */,
+				B7D90B3F232A662400FFA46F /* Skills.swift in Sources */,
 				B72D2929232440E9000EA8EA /* SceneDelegate.swift in Sources */,
+				B7D90B45232B3B5600FFA46F /* MailView.swift in Sources */,
+				B7D90B41232B219800FFA46F /* EmploymentView.swift in Sources */,
 				B72D295723244A49000EA8EA /* AvatarImage.swift in Sources */,
 				B72D295F2325BFB2000EA8EA /* NameAddressView.swift in Sources */,
 				B72D292B232440E9000EA8EA /* ContentView.swift in Sources */,
