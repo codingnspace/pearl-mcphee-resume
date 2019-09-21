@@ -8,6 +8,23 @@
 
 import SwiftUI
 
+struct MySkill: Hashable {
+    var id: Int
+    let imageName, name: String
+}
+
+let mySkills: [MySkill] = [
+    .init(id: 0, imageName: "javascript-2", name: "JavaScript"),
+    .init(id: 1, imageName: "html-css", name: "HTML5 + CSS3"),
+    .init(id: 2, imageName: "angular", name: "Angular"),
+    .init(id: 3, imageName: "react-4", name: "ReactJS"),
+    .init(id: 4, imageName: "redux", name: "Redux"),
+    .init(id: 5, imageName: "swiftui", name: "SwiftUI"),
+    .init(id: 6, imageName: "node", name: "NodeJS"),
+    .init(id: 7, imageName: "docker", name: "Docker"),
+    .init(id: 8, imageName: "mongo", name: "MongoDB"),
+]
+
 struct Skills: View {
     var body: some View {
         VStack {
@@ -18,115 +35,21 @@ struct Skills: View {
                     .padding(.leading, 15)
                 Spacer()
             }
-            
-            HStack {
-                Image("javascript-2")
-                    .resizable()
-                    .frame(width: 60, height: 60)
-                    .padding(.leading, 10)
-                
-                VStack(alignment: .leading) {
-                    Text("JavaScript")
-                        .font(.title)
-                    
-                    Text("ES5, ES6 and ES7")
-                        .font(.subheadline)
-                }
-                
-                Spacer()
-            }
-            HStack {
-                Image("html-css")
-                    .resizable()
-                    .frame(width: 60, height: 60)
-                    .padding(.leading, 17)
-                
-                Text("HTML5 + CSS3")
-                    .font(.title)
-                
-                Spacer()
-            }
-            HStack {
-                Image("angular")
-                    .resizable()
-                    .frame(width: 60, height: 60)
-                    .padding(.leading, 15)
-                
-                Text("Angular")
-                    .font(.title)
-                
-                Spacer()
-            }
-            HStack {
-                Image("react-4")
-                    .resizable()
-                    .frame(width: 60, height: 60)
-                    .padding(.leading, 15)
-                
-                Text("React")
-                    .font(.title)
-                
-                Spacer()
-            }
-            HStack {
-                Image("redux")
-                    .resizable()
-                    .frame(width: 60, height: 60)
-                    .padding(.leading, 15)
-                
-                Text("Redux")
-                    .font(.title)
-                
-                Spacer()
-            }
-            HStack {
-                Image("swiftui")
-                    .resizable()
-                    .frame(width: 60, height: 60)
-                    .padding(.leading, 15)
-                
-                Text("SwiftUI")
-                    .font(.title)
-                
-                Spacer()
-            }
-            HStack {
-                Image("node")
-                    .resizable()
-                    .frame(width: 60, height: 60)
-                    .padding(.leading, 15)
-                
-                Text("Node")
-                    .font(.title)
-                
-                Spacer()
-            }
-            HStack {
-                Image("docker")
-                    .resizable()
-                    .frame(width: 60, height: 60)
-                    .padding(.leading, 15)
-                
-                Text("Docker")
-                    .font(.title)
-                
-                Spacer()
-            }
-            HStack {
-                Image("mongo")
-                    .resizable()
-                    .frame(width: 60, height: 60)
-                    .padding(.leading, 15)
-                
-                Text("MongoDB")
-                    .font(.title)
-                
-                Spacer()
+               ForEach(mySkills, id: \.self) { mySkill in
+                   HStack {
+                        Image(mySkill.imageName)
+                               .resizable()
+                               .frame(width: 60, height: 60)
+                               .padding(.leading, 17)
+
+                    Text(mySkill.name)
+                               .font(.title)
+
+                           Spacer()
+                   }
             }
         }
     }
-    
-
 }
 
 struct Skills_Previews: PreviewProvider {

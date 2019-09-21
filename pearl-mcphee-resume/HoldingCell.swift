@@ -9,32 +9,35 @@
 
 import SwiftUI
 
-
-struct ContentView: View {
+struct ContentView2: View {
     var body: some View {
         ScrollView {
             VStack {
-                BannerView()
+                VStack {
+                    BannerView()
                     .frame(height: 300)
-                    .edgesIgnoringSafeArea(.top)
-
-                AvatarImage()
+            
+                    AvatarImage()
                     .frame(width: 150, height: 150)
                     .offset(y: -130)
                     .padding(.bottom, -200)
-
-                NameAddressView()
-
-                EmploymentView()
-                
-                Skills()
+            
+                    NameAddressView()
+                    
+                    EmploymentView()
+                    
+                    Skills()
+                    
+                    
+                  
+                }
             }
-        
         }
-    }
+}
+    
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct ContentView2_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
     }
